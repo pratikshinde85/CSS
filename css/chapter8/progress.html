@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <style>
+         .progress{
+            background-color: red;
+            height: 3px;
+            animation: load 2s ease-in;
+            
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            height:6vh;
+            background-color: black;
+        }
+        main{
+            height:250px;
+            background-color: aqua;
+        }
+        @keyframes load{
+            0%{
+                width: 0vw;
+            }
+            60%{
+                width: 60vw;
+            }
+            100%
+            {
+                width: 100vw;
+            }
+        }   
+        
+         .road img{
+            animation: rotate 1s infinite;
+            width: 30vh;
+                }
+          
+          .slider img{
+            width:30%;
+          }
+       @keyframes rotate {
+        0%
+        {
+            transform: rotate(0deg);
+
+        }
+        
+        100%
+        {
+            transform: rotate(360deg);
+
+
+        }
+        
+       }
+    </style>
+</head>
+<body>
+    <div class="progress">
+
+    </div>
+    <header>
+
+    </header>
+<main>
+    <div class="road">
+
+        <img src="https://gweb-research-imagen.web.app/compositional/An%20oil%20painting%20of%20a%20British%20Shorthair%20cat%20wearing%20a%20cowboy%20hat%20and%20red%20shirt%20skateboarding%20on%20a%20beach./1_.jpeg" alt="cat image">
+    </div>
+    <div class="slider">
+       <img             src="https://cdn.eso.org/images/publicationjpg/eso1907a.jpg" alt="">
+       <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg" alt="">
+       <img src="https://img.freepik.com/premium-photo/astronaut-outer-open-space-planet-earth-stars-provide-background-erforming-space-planet-earth-sunrise-sunset-our-home-iss-elements-this-image-furnished-by-nasa_150455-16829.jpg?w=2000
+       " alt="">
+    </div>    
+</main>    
+</body>
+</html>

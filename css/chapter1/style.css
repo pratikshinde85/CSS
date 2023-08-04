@@ -1,0 +1,25 @@
+#first
+{
+    background-color: aqua;
+    color: black;
+}
+.red
+{
+    background-color: bisque;
+    color: black
+}
+.bg-blue{
+    background-color:rgb(55, 98, 136) ;
+}
+h1{
+    color: red;
+    
+}
+p.abc{
+    color:rgb(129, 12, 12);
+    /* background-color: blueviolet; */
+}
+*{
+    margin-top: 4;
+    padding: 0;
+}

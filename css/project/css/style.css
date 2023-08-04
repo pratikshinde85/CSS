@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;600&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --accent-color: #1e90ff;
+    --white: #ffffff;
+  }
+header{
+    background-color:var(--accent-color);
+}
+nav ul
+{
+    display: flex;
+    color:white;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height:54px;
+    }
+nav ul li{
+    padding: 23px;
+    list-style-type:none;
+    font-family: 'Chivo Mono', monospace;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    /* color: #efe6e6; */
+    font-weight: bold;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 5vw;
+}
+.logo img
+{   
+    width: 110px;
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 0 140px;
+
+}
+.search input{
+    width:23vw;
+    height: 3vh;
+    padding: 2px 12px;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 2px solid black;
+}
+.slider{
+   
+    width: 80vw;
+    margin:10px auto;
+    overflow: hidden;
+}   
+.card{
+    max-width: 96vw;
+    /* background-color: #1e90ff; */
+    margin:27px auto;
+}
+.cards{
+    display: inline-flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+}
+.carditem
+{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:20px;
+}
+.container{
+    min-height: calc(100vh - 54px - 7vh);
+}
+
+footer{
+    background-color: var(--accent-color);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Chivo Mono', monospace;
+    color: white;
+}

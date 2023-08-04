@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container
+        {
+            background-color: aqua;
+            height: 40vh;
+        }
+        img{
+            width: 200px;
+            animation-name: animation_image;
+            animation-duration:2s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+
+        }
+        @keyframes animation_image {
+            from {
+                width:200px;
+                 }
+            to {
+                width:100px;
+               } 
+            }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <img src="https://gweb-research-imagen.web.app/compositional/An%20oil%20painting%20of%20a%20British%20Shorthair%20cat%20wearing%20a%20cowboy%20hat%20and%20red%20shirt%20skateboarding%20on%20a%20beach./1_.jpeg" alt="cat image">
+    </div>
+</body>
+</html>

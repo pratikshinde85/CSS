@@ -1,0 +1,12 @@
+.content{
+    background-image: url("index.jpg");
+    background-repeat: no-repeat;
+    color:rgb(183, 36, 36);
+    background-size:100px;
+    width: 344px; 
+    height: 1770px; 
+    border: 0.1cm solid red; 
+    /* background-position-x: center; */
+    /* background-attachment: fixed;  */
+    background-attachment: local; 
+}
